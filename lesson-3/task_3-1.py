@@ -1,8 +1,8 @@
 def div(*args):
 
     try:
-        arg1 = int(input("Input dividend "))
-        arg2 = int(input("Input divider "))
+        arg1 = int(input("Делимое "))
+        arg2 = int(input("Делитель "))
         res = arg1 / arg2
     except ValueError:
         return 'Value error'
@@ -19,4 +19,4 @@ def div(*args):
     '''
 
 
-print(f'result  {div()}')
+print(f'Частное  {div()}')
