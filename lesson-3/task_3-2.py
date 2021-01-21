@@ -7,4 +7,4 @@ name = input('enter name')
 
 def my_func (name, surname, year, city, email, telephone):
      return ' '.join([name, surname, year, city, email, telephone])
-print(my_func(surname = 'Frolov', name = 'Sergey', year = '1990', city = 'Syzran', email = 'error@mail.ru', telephone = '8-903-300-99-87')) 
+print(my_func(surname = 'Ivanov', name = 'Ivan', year = '1977', city = 'Moscow', email = 'mail@mail.ru', telephone = '8-999-123-45-67')) 
